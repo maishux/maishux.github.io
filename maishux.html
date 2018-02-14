@@ -1,1 +1,85 @@
-<h1> Maisha </h1>
+<!DOCTYPE html>
+<head>
+	<head>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+	</head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://wallpaperget.com/images/tumblr-pics-1.jpg');
+      background-size: cover;
+      color: pink;
+    }
+    a {
+      color: pink;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    img {
+      margin: 0px 0px 0px 0px;
+      border: 2px solid white;
+      border-radius: 360px;
+    }
+    ul {
+      padding: 5px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 50px 0px 10px;
+    }
+    article {
+      max-width: 400px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    body{
+      background: pink;
+      color: gray;
+    }
+    @media (max-width: 100px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.pinimg.com/736x/bb/ec/c1/bbecc1ca913177dd1b101de3d6daff6c--audio.jpg">
+    <h1>Nazifa's Blog</h1>
+    <ul>
+      <li><a href="http://college.usatoday.com/2012/03/29/five-tips-to-improve-writing-in-college/" target="_blank">Improve Your Writing Skills</a></li>
+      <li><a href="https://www.arttutor.com/better-faster" target="_blank">Improve Your Painting Skills</a></li>
+      <li><a href="https://www.huffingtonpost.com/toby-nwazor/7-simple-tips-to-improve-_b_9498546.html" target="_blank">Improve Your Photography Skills</a></li>
+      <li><a href=" http://www.besttravelwriting.com/btw-blog/category/great-stories/" target="_blank"> Short Stories!</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>About The Blogger.</h2>
+    <p>The blogger is a high-school student. She enjoys reading books and painting. She has taken photography classes and knows a lot of information about it. Her favorite subjects include English and Math. She loves travelling. She has been to many places/countries. She likes adventours and road trips! You'll know more about her through her writing and pictures!</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>About This Site</h2>
+    <p> This blog site was made to give an insight to people about the blogger's life and her favorite things. This site will help you understand your strengths in things like writing and painting. It will make you want to travel and experience more in life. </p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>What you will experience here.</h2>
+    <p> You will read and experience other people's stories and learn about them. You will get to know more about improving skills and how people improved themselves.</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
